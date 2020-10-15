@@ -2,6 +2,8 @@
 
 This is an attempt on the Kaggle House prices competition. Attempts and results will be updated along the way as I progress on with this mini project.
 
+https://www.kaggle.com/c/home-data-for-ml-course
+
 ## Files:
 1) HousePrices_datacleaning.ipynb
 - The jupyter notebook coded for cleaning train.csv and test.csv
