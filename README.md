@@ -48,6 +48,17 @@ Parameters tuned: {'max_depth': hp.randint('max_depth', 20),
                    'reg_lambda' : hp.uniform('reg_lambda', 0,2)
                    }
                    
+Parameters: {base_score=0.5, booster='gbtree', colsample_bylevel=1,
+             colsample_bynode=1, colsample_bytree=0.24204381948980463,
+             gamma=0.14997192599699538, gpu_id=-1, importance_type='gain',
+             interaction_constraints='', learning_rate=0.12579263427244003,
+             max_delta_step=0, max_depth=2, min_child_weight=2.620016480846324,
+             missing=nan, monotone_constraints='()', n_estimators=427, n_jobs=0,
+             num_parallel_tree=1, random_state=0, reg_alpha=0,
+             reg_lambda=1.4153012290990437, scale_pos_weight=1,
+             subsample=0.8699410108602301, tree_method='exact',
+             validate_parameters=1, verbosity=None}
+                   
 MAE: 13877.53
 
 Ranking: 1253/49372, Top 2.53%
