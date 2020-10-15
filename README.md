@@ -19,6 +19,7 @@ This is an attempt on the Kaggle House prices competition. Attempts and results 
 An attempt was done with the XGBRegressor with the default parameters and also doing hyperparameter tuning with HyperOpt. The results are as follows:
 
 - XGBRegressor, default parameters:
+
 Parameters: {base_score=0.5, booster='gbtree', colsample_bylevel=1,
              colsample_bynode=1, colsample_bytree=1, gamma=0, gpu_id=-1,
              importance_type='gain', interaction_constraints='',
@@ -33,6 +34,7 @@ MAE: 16234.42
 Ranking: 6634/49372, Top 13.4%
 
 - XGBRegressor, hyperparameter tuning with HyperOpt
+
 Parameters tuned: {'max_depth': hp.randint('max_depth', 20),
                   'gamma': hp.uniform ('gamma', 0,2),
                    'colsample_bytree' : hp.uniform('colsample_bytree', 0.001,1),
