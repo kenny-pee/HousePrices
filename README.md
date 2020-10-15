@@ -42,6 +42,7 @@ Parameters tuned: {'max_depth': hp.randint('max_depth', 20),
                    'min_child_weight': hp.uniform('min_child_weight',0, 3),
                    'reg_lambda' : hp.uniform('reg_lambda', 0,2)
                    }
+                   
 MAE:
 
 Ranking: 
