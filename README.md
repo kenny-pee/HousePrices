@@ -27,7 +27,9 @@ Parameters: {base_score=0.5, booster='gbtree', colsample_bylevel=1,
              n_estimators=100, n_jobs=0, num_parallel_tree=1, random_state=0,
              reg_alpha=0, reg_lambda=1, scale_pos_weight=1, subsample=1,
              tree_method='exact', validate_parameters=1, verbosity=None}
+             
 MAE: 16234.42
+
 Ranking: 6634/49372, Top 13.4%
 
 - XGBRegressor, hyperparameter tuning with HyperOpt
@@ -41,4 +43,5 @@ Parameters tuned: {'max_depth': hp.randint('max_depth', 20),
                    'reg_lambda' : hp.uniform('reg_lambda', 0,2)
                    }
 MAE:
+
 Ranking: 
