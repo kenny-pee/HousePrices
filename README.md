@@ -12,6 +12,9 @@ This is an attempt on the Kaggle House prices competition. Attempts and results 
 
 - One row has been removed from the original train.csv as there is a missing value for a variable.
 
+3) HousePrices_datacleaning.ipynb
+- The jupyter notebook with XGBoost method used.
+
 ## Updates
 
 ### 15th October, 2020
