@@ -43,6 +43,6 @@ Parameters tuned: {'max_depth': hp.randint('max_depth', 20),
                    'reg_lambda' : hp.uniform('reg_lambda', 0,2)
                    }
                    
-MAE:
+MAE: 13877.53
 
-Ranking: 
+Ranking: 1253/49372, Top 2.53%
