@@ -4,7 +4,7 @@ This is an attempt on the Kaggle House prices competition. Attempts and results 
 
 ## Files:
 1) HousePrices_datacleaning.ipynb
-  The jupyter notebook coded for cleaning train.csv and test.csv
+- The jupyter notebook coded for cleaning train.csv and test.csv
   
 2) Train_clean.csv and Test_clean.csv
   
